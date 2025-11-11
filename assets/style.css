@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(180deg, #001f3f, #003366);
+  color: white;
+  text-align: center;
+}
+header {
+  background: #002850;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+.logo {
+  width: 60px;
+  vertical-align: middle;
+}
+.hero {
+  padding: 60px 20px;
+}
+.hero h2 {
+  font-size: 28px;
+  color: #fff;
+}
+.cta-btn {
+  background: #00ffcc;
+  color: #001f3f;
+  font-size: 20px;
+  padding: 14px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+  margin-top: 25px;
+}
+.cta-btn:hover {
+  background: #00e6b8;
+  transform: translateY(-3px);
+}
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px 20px;
+}
+.card {
+  background: #003366;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+.card h3 { color: #00ffcc; }
+.payments {
+  margin: 40px 0;
+}
+.pay-icons img {
+  width: 80px;
+  margin: 0 10px;
+}
+footer {
+  background: #001a33;
+  padding: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
